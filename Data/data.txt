@@ -1,0 +1,5 @@
+The raw .pcap files can be downloaded from the website of UNSW: https://iotanalytics.unsw.edu.au/iottraces.html
+
+Our training and testing datasets from the processed pcaps can be found in the links below:
+Train data: https://drive.google.com/file/d/1KupiRGr9YMCWHVDMF3OCWSHHcsHjvBLm/view?usp=share_link
+Test data: https://drive.google.com/file/d/1dQqFadqbr3kiS9GbAMwsn3fexjC4iqFm/view?usp=share_link
