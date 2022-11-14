@@ -11,7 +11,7 @@ Henna is an in-switch implementation of a hierarchical classification system. Th
 For more details, please consult our paper: https://doi.org/10.1145/3565009.3569520
 
 ## Organization of the repository  
-There are two folders:  
+There are three folders:  
 - _Data_: information on how to access the data 
 - _P4_: the P4 code for Tofino and the M/A table entries
 - _Python_: the jupyter notebooks for training the machine learning models.
