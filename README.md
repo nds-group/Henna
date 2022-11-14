@@ -2,7 +2,7 @@
 
 This repository contains the public version of the code for our work Henna, presented at the 1st ACM CONEXT Workshop on Native Network Intelligence (_NativeNI '22_), 9 December 2022, Roma, Italy.
 
-## What is Henna?  
+## Henna two-stage architecture 
 <img src="henna_cascaded.jpg" alt="Henna Cascaded Design" style="height: 350px; width:500px;"/>  
 
 Henna is an in-switch implementation of a hierarchical classification system. The concept underpinning our solution is that of splitting a difficult classification task into easier cascaded decisions, which can then be addressed with separated and resource-efficient tree-based classifiers. We propose a design of Henna that aligns with the internal organization of the Protocol Independent Switch Architecture (PISA), and integrates state-of-the-art strategies for mapping decision trees to switch hardware. We then implement Henna into a real testbed with off-the-shelf Intel Tofino programmable switches using the P4 language.  
@@ -12,12 +12,14 @@ For more details, please consult our paper: https://doi.org/10.1145/3565009.3569
 
 ## Organization of the repository  
 There are two folders:  
-- _Python_: contains the jupyter notebooks for training the machine learning models.
-- _P4_: contains the P4 code for Tofino
+- _Data_: information on how to access the data 
+- _P4_: the P4 code for Tofino and the M/A table entries
+- _Python_: the jupyter notebooks for training the machine learning models.
 
-## Dataset
+## Use case
 The use case considered in the paper is an IoT device identification task based on the publicly available UNSW-IOT Traces which you can find at https://iotanalytics.unsw.edu.au/iottraces.html. Fifteen days of data are used for model training and one day is used for testing.
 
+## Citation
 If you make use of this code, kindly cite our paper:  
 ```
 @inproceedings{henna-2022,
