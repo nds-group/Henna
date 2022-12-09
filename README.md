@@ -14,7 +14,7 @@ For more details, please consult our paper: https://doi.org/10.1145/3565009.3569
 There are three folders:  
 - _Data_: information on how to access the data 
 - _P4_: the P4 code for Tofino and the M/A table entries
-- _Python_: the jupyter notebooks for training the machine learning models.
+- _Python_: the jupyter notebooks for training the machine learning models, and the python scripts for generating the M/A table entries from the saved trained models.
 
 ## Use case
 The use case considered in the paper is an IoT device identification task based on the publicly available UNSW-IOT Traces which you can find at https://iotanalytics.unsw.edu.au/iottraces.html. Fifteen days of data are used for model training and one day is used for testing.
