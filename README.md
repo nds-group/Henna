@@ -1,6 +1,6 @@
 # Henna: Hierarchical Machine Learning Inference in Programmable Switches  
 
-This repository contains the public version of the code for our work Henna, presented at the 1st ACM CONEXT Workshop on Native Network Intelligence (_NativeNI '22_), 9 December 2022, Roma, Italy.
+This repository contains the public version of the code for our work Henna, presented at the 1st ACM CoNEXT Workshop on Native Network Intelligence (_NativeNI '22_), 9 December 2022, Roma, Italy.
 
 ## Henna two-stage architecture 
 <img src="henna_cascaded.jpg" alt="Henna Cascaded Design" style="height: 350px; width:500px;"/>  
